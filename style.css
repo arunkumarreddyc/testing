@@ -1,0 +1,61 @@
+.calc {
+  /* position: absolute;
+  top: 10%;
+left: 5%; */
+display: flex;
+justify-content: center;
+
+}
+
+#title {
+  text-align: center;
+  color:rgb(236, 12, 31);
+}
+
+#description{
+  text-align: center;
+  font-size:50px;
+}
+
+td,
+tr,
+table {
+  border: 1px solid black;
+  text-align: center;
+  cursor: pointer;
+
+  
+}
+
+button{
+  background-color:rgba(196, 241, 14, 0.801);
+  border:none;
+}
+
+body {
+  background-color: rgba(245, 154, 50, 0.452);
+}
+
+
+
+tr{
+  height: 30px;
+}
+
+input{
+  /* font-size: 200%; */
+  border:5px solid black;
+ 
+}
+
+td{
+  background-color:rgba(196, 241, 14, 0.801);
+  width:auto;
+}
+
+/* @media(max-width:600px) {
+  td{
+    width:auto;
+  }
+} */
+
