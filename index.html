@@ -12,9 +12,9 @@
   <body>
     <h1 id="title">Calculator</h1>
     <div class="calc">
-      <table class="p-3 rounded mb-2 bg-info text-white">
-        <tr>
-          <td colspan="4"><input type="text" id="result" /></td>
+      <table>
+        <tr id="textscreen">
+          <th colspan="4" id="input"><input type="text" id="result" /></th>
         </tr>
 
         <!-- <tr>
@@ -24,7 +24,7 @@
           <td><button>MC</button></td>
         </tr> -->
         <tr>
-          <td><button id='clear'>C</button></td>
+          <td><button id="clear">C</button></td>
           <td><button>DEL</button></td>
           <td><button>%</button></td>
           <td><button>/</button></td>
@@ -34,31 +34,24 @@
           <td><button>8</button></td>
           <td><button>9</button></td>
           <td><button>x</button></td>
-
-          
         </tr>
         <tr>
           <td><button>4</button></td>
           <td><button>5</button></td>
           <td><button>6</button></td>
-          <td><button id='add'>+</button></td>
-
-        
+          <td><button id="add">+</button></td>
         </tr>
         <tr>
-          <td><button id='1'>1</button></td>
-          <td><button id='2'>2</button></td>
-          <td><button id='3'>3</button></td>
-          <td><button id='subtract'>-</button></td>
-
-          
+          <td><button id="1">1</button></td>
+          <td><button id="2">2</button></td>
+          <td><button id="3">3</button></td>
+          <td><button id="subtract">-</button></td>
         </tr>
         <tr>
           <td><button>.</button></td>
           <td><button>0</button></td>
 
-          
-          <td colspan="2"><button id='equal'>=</button></td>
+          <td colspan="2"><button id="equal">=</button></td>
         </tr>
       </table>
     </div>
